@@ -8,8 +8,6 @@ process WAIT {
     output:
         stdout
     
-    container 'docker.io/debian:stable-20230411-slim'
-    
     script:
     """
     ${params.command}
